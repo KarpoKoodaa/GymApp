@@ -4,32 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
     <title>GymApp</title>
 </head>
 <body>
-        <nav class="sticky">
-            <ul class="main-nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Tools</a></li>
-                <li class="push"><a href="">Contact</a></li>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark"> -->
+        <a class="navbar-brand" href="#">GymApp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                </li>
             </ul>
-        </nav>
-        <div class="container">
-            <h2>GymApp</h2>
-            <p>Log your trainings and track your progess</p>
-            
         </div>
-        <div class="grid-wrapper">
-            <li class="train-flex-item">Bench</li>
-            <li class="train-flex-item">Squat</i></li>
-            <li class="train-flex-item">Deadlift</i></li>
+    </nav>
+      <main role="main">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-3">GymApp</h1>
+                <p>Log your trainings and track your progess.</p>
+            </div>
         </div>
-     
-        <footer class="footer">
-            Designed by KarpoKoodaa 2020
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>Start Workout</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sequi iste nesciunt exercitationem dignissimos! Alias dolor consequuntur perspiciatis laudantium nostrum maxime vitae numquam ut officiis quos accusamus qui, magnam quas?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Add Workout</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sequi iste nesciunt exercitationem dignissimos! Alias dolor consequuntur perspiciatis laudantium nostrum maxime vitae numquam ut officiis quos accusamus qui, magnam quas?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Training Log</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sequi iste nesciunt exercitationem dignissimos! Alias dolor consequuntur perspiciatis laudantium nostrum maxime vitae numquam ut officiis quos accusamus qui, magnam quas?</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </main>
+        
+        <footer class="container">
+            <p>Designed by KarpoKoodaa 2020</p>
         </footer>
     
 </body>
